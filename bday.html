@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Princess!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="fade">🎉Happy Birthday, Kathy!🎂</h1>
+
+    <p class="message fade delay1">
+      first of all, sorry if this sounds awkward.. i’m really not good at saying sweet things😭  
+      words of affirmation just isn’t my love language😂  
+      but since it’s your birthday, so let me try (at least once a year, right?)
+    </p>
+
+    <p class="message fade delay2">
+      anyway, happy birthday!!🥳  
+      another year older, welcome to level 25 where adulthood gets slightly more confusing😂  
+      i hope you get to spend today laughing, doing whatever makes you happy,  
+      and maybe getting spoiled a little because you totally deserve it!
+    </p>
+
+    <p class="message fade delay3">
+      i hope you celebrate it with your family or your favorite people,  
+      eat something delicious, and just enjoy the day!
+      oh and yes, 25 is that fun stage between being still young and officially an adult
+    </p>
+
+    <p class="note fade delay4">
+      anyway, that’s all before i start rambling again.. 
+      happy birthday once more, my princess!  
+      hope this year brings you a lot of good memories and fun stories to tell🤍  
+    </p>
+
+  <button class="btn fade delay5" onclick="showSurprise()">click for a surprise💌</button>
+
+    <div id="surprise" style="display:none; margin-top:30px;">
+      <h1 class="fade">💌A Little Extra💌</h1>
+
+      <p class="message fade delay1">
+        okay, here’s the part where i act like a sentimental person for a few seconds😭  
+        i just wanted to say that i really appreciate you, you make things so much more fun, 
+        you’ve got that mix of humor and chaos that somehow makes every moment better😂  
+        thanks for being around and for just being you
+      </p>
+
+      <p class="note fade delay2">
+        that’s it, no drama, no deep talk, just genuine wishes from me😊  
+        go enjoy your day, celebrate, eat lots of cake, and take tons of pictures🎂📸  
+        hope this year treats you kindly and gives you plenty to smile about!✨  
+      </p>
+    </div>
+
+  </div>
+
+  <script>
+    function showSurprise() {
+      document.getElementById('surprise').style.display = 'block';
+      // hide the button after click
+      document.querySelector('.btn').style.display = 'none';
+    }
+  </script>
+</body>
+</html>
